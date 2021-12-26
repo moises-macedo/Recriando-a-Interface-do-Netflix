@@ -1,0 +1,60 @@
+:root{
+    --cor-vermelha:#E50914;
+    --cor-preta:#141414;
+    --fonte-titulo: 'Arial Black';
+    --fonte-padrao:'Times New Roman', times, serif;
+    --cor-de-fonte:#AAA;
+
+
+
+}
+
+
+
+body{
+    background-color: var(--cor-preta);
+    font-family: var(--fonte-padrao);
+}
+
+.logo{
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: var(--cor-vermelha);
+    margin: 10px;
+    
+}
+
+.containerHeader>nav>ul>li>a{
+    color: var(--cor-de-fonte);
+    font-size: 1.2rem;
+}
+.containerHeader{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}   
+.containerHeader>nav>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;   
+    align-content: center;
+    width: 100%;
+    max-width:400px;
+
+} 
+.containerHeader>nav>ul>li{
+    display: flex;
+    margin:10px 10px;
+
+} 
+.containerHeader>nav>ul>li>a:hover{
+    color:#fff;
+    
+
+} 
