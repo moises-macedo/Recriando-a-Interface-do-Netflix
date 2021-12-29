@@ -71,18 +71,12 @@ body{
     background-size: 100% 120%;
     height: 600px;
     
-    
-
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     
-
-
-
 }
 
 .container-principal{
